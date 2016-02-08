@@ -1,0 +1,103 @@
+/** --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+#navbar {
+  background: #EB7A36;
+  padding: 0.54em;
+  padding-top: 0.7em;
+  margin: -15px;
+}
+
+#search {
+  float:right;      
+}
+
+.nb-plain ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nb-plain li {
+  display: inline-block;      
+  padding: 0 0 0 0.5em;
+  margin: -6px;
+  position: relative;
+}
+
+.nb-plain li:first-child {
+
+}
+
+.nb-plain li.selected a,
+.nb-plain li.selected-parent a {
+  background: #5C7A99;
+  color: white;
+}    
+
+.nb-plain a {   
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.35em 0.8em 0.5em;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0);
+}  
+
+.nb-plain a:hover {
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+  color: white;
+}
+
+.nb-plain ul ul {   
+  font-size: x-small;
+  position: absolute;
+  padding: 6px;
+  left: -9999px;
+  z-index: 2;
+  background: #EB7A36;
+  min-width: 50px;
+  margin-top: 8.5px;
+}
+
+.nb-plain li li {
+  border: none;
+  padding: 0.2em;
+  padding-left: 0;
+  width: 95%;
+  margin: 0.1em;
+}
+
+.nb-plain li li a {
+  display: block;
+  border: none;
+  width: 50px;
+}
+
+.nb-plain li li a:hover {
+  border: none;
+  text-decoration: underline;
+}
+
+.nb-plain li:hover ul {
+  left: 0;
+}
+
+.nb-plain li li:hover {
+  border: none;
+  width: 100%;
+}
+
+.nb-plain li.selected-parent li a,
+.nb-plain li.selected li a {
+  background: none;
+  color: inherit;
+}
+
+.nb-plain li li.selected {
+  background: #5C7A99;
+  color: white;
+}

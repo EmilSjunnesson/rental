@@ -1,0 +1,91 @@
+.home-movies {
+  width: 100%;
+  margin-left: auto;
+  text-align: center;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 1em;
+}
+
+.home-movies a {
+  text-decoration: none;	
+}
+
+div.home-movies figure.movie {
+  width: 22%;	
+  display: inline-block;
+  text-align: center;
+}
+
+div.home-movies figure.movie figcaption {
+  background: url('../img/frame-bottom.png');	
+  background-size: 100% 100%;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: -5px;
+}
+
+div.home-movies figure.movie img {
+  border-style: solid; 
+  border-width: 15px 20px; 
+  -moz-border-image: url('../img/frame.png') 15 100 15 repeat; 
+  -webkit-border-image: url('../img/frame.png') 15 100 15 repeat; 
+  -o-border-image: url('../img/frame.png') 15 100 15 repeat; 
+  border-image: url('../img/frame.png') 15 90 15 fill round;
+}
+
+.home-blog {
+  width: 35%;
+  font-size: small;
+  float: left;
+  height: 520px;
+}
+
+.home-blog h2 {
+  margin-top: 0px;	
+}
+
+.home-blog h1 {
+  margin-top: 0.3em;	
+}
+
+.home-blog .blog-post footer {
+  font-size: xx-small;
+}
+
+.home-blog .blog-post p.cat {
+  font-size: xx-small;
+}
+
+.home-blog .blog-post footer {
+  border-bottom: none;
+}
+
+.home-text {	
+  height: 215px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.home-text h1, .home-genres h1 {
+  font-size: 1.5em;
+  margin-top: 0.3em;
+}
+
+.home-text, .home-genres {
+  width: 63%;
+  float: right;
+  border-left: 2px solid #cccccc;
+  padding-left: 0.5em;
+}
+
+.home-genres {	
+  height: 305px;
+}
+
+.home-genres a {
+ display: inline-block;	
+ width: 65px;
+ text-align: center;
+ margin: 0.5em;
+}	

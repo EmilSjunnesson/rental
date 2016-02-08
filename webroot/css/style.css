@@ -1,0 +1,230 @@
+/**
+ * Imports
+ */
+@import url(navbar.css); 
+
+@font-face {
+    font-family: fiesta;
+    src: url(Fiesta.ttf);
+}
+
+/* 
+ * Misc classes
+ */
+.right {
+  float: right;     
+}
+.left {
+  float: left;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.box {
+  float: right;
+  border: 2px solid #cccccc;
+  width: 18%;
+  padding: 1em;	
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+a {
+  color: #EB7A36;	
+}
+
+a:hover {
+  text-decoration: none;	
+}
+
+strong {
+  color: #EB7A36;	
+}
+
+/**
+ * General elements
+ */
+html {
+  overflow-y: scroll;      
+}
+body {
+  color: #333;
+  font-family: Tahoma, Geneva, sans-serif;
+  background: black;
+  background-image: url('../img/bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin:-15px;
+  margin-bottom: 10px;
+  background-image: url('../img/header.jpg');
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+ 
+.sitetitle {
+  position: absolute;
+  top: 16px;
+  left: 130px;
+  font-size: 48px;
+  font-family: fiesta, sans-serif;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 75px;
+  left: 130px;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+  background: black;
+  padding: 0.2em 0.5em;
+}
+ 
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+ 
+ 
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+ 
+.sitefooter {
+  color: #666;
+}
+
+/**
+ * Figure style
+ */
+figure.right {
+  margin-right: 0;
+}
+figure.left {
+  margin-left: 0;
+}
+figure.top {
+  margin-top: 0;
+}
+figcaption {
+  text-align: center;
+}
+
+/* Success, info, notice and error/alert boxes
+-------------------------------------------------------------- */
+/*
+output      { padding: 0.5em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice     { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success    { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info       { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+.info a      { color: #205791; }
+*/
+/**
+ * Links styled as buttons
+ */
+.buttonLink {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em;
+  border: 1px solid #333333;      
+}
+
+hr {
+  background: #ccc;  
+  color: transparent;
+  height: 1px;
+}
+
+.as-button {
+  padding: 0.2em 0.5em;
+  background: #5C7A99;  
+  text-decoration: none;
+  font-weight: bold;
+  color: white; 	
+}
+
+a.as-button:hover {
+  background: #81A4C6;  	
+}
+
+/**
+ * Arrow style
+ */
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	
+	border-bottom: 1em solid #333333;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	
+	border-top: 1em solid #333333;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 0.4em solid transparent;
+	border-bottom: 0.4em solid transparent;
+	
+	border-left: 0.4em solid #333333;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 0.4em solid transparent;
+	border-bottom: 0.4em solid transparent; 
+	display: inline-block;
+	border-right:0.4em solid #333333; 
+} 

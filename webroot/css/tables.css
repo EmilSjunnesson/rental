@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  border: 1px solid #333333;
+  background: #333333;
+}
+
+tr.movie-tr td a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+tr.movie-tr:hover td {
+  background-color: #ccc; 	
+}
+
+th {
+  border: 1px solid #333333;
+  background: #5C7A99;
+  color: white;
+}
+
+th a {
+  color: inherit;
+  text-decoration: none;
+}
+
+td {
+  border: 1px solid #333333;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: white;
+}
+
+.admin td {
+  text-align: center;	
+}
+
+.genre-check {
+  width:120px;
+  display: inline-block;
+}

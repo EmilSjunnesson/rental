@@ -1,0 +1,88 @@
+.movie-single div {
+
+}
+
+.movie-single article {
+  float: left;
+  width: 74%;
+}
+
+.movie-single .trailer {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.movie-single aside {
+  float: right;
+  width: 24%;
+  border: 2px solid #ccc;
+}
+
+.movie-single aside figure {
+  margin: 1em;
+  margin-bottom: 0;	
+}
+
+ul.aside-info {
+  list-style: none;	
+  margin: 0;
+  padding: 1em;
+}
+
+ul.aside-info li {
+  margin-bottom:  1em;
+}
+
+.movie-single footer {
+  width: 100%;
+}
+
+footer.movie a {
+  text-decoration: none;
+  color: inherit;	
+}
+
+.movie-nav > div {
+  width: 33%;	
+}
+
+.movie-nav {
+  margin-bottom: 1em;	
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.movie-nav a {
+ text-decoration: none;
+ color: inherit;  	
+}
+
+.movie-nav a.hits {
+ background: #333333;
+ display: inline-block;
+ width: 1.6em;
+ text-align: center;
+ color: white;	
+}
+
+form a {
+  padding: 0.2em 0.5em;
+  background: #5C7A99;  
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+form a:hover {
+  background: #81A4C6; 	
+}
+
+span.current {
+  padding: 0.2em 0.5em; 
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,46 @@
+/** --------------------------------------------------------------
+ * Blog: Styling for blogposts
+ *
+ */
+.blog-post h2 {
+  background: #5C7A99;
+  padding: 0.3em;
+  color: white;
+}
+
+.blog-post h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-post h2 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.blog-post footer {
+  border-bottom: 1px solid #333333;
+}
+
+.blog-post footer {
+  font-size: x-small;
+  text-align: right;
+}
+
+.blog-post p.cat {
+  font-size: x-small;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.blog-post p.cat a {
+  color: inherit;      
+}
+
+.category-links a {
+  padding: 0.2em 0.5em;
+  background: #5C7A99;  
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}

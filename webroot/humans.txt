@@ -1,0 +1,6 @@
+/* TEAM */
+	Admin: Emil Sjunnesson
+
+/* SITE */
+	Language: Swedish/English
+	Doctype: html5 most of the time
